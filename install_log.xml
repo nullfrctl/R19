@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstalLog Project="R3 2019" Build_date="8/30/2022 4:51:40 PM">
+  <Files>
+    <Directory Path="C:\Software\steam\steamapps\common\Cyberpunk 2077\archive">
+      <Directory Path="C:\Software\steam\steamapps\common\Cyberpunk 2077\archive\pc">
+        <Directory Path="C:\Software\steam\steamapps\common\Cyberpunk 2077\archive\pc\mod">
+          <file>C:\Software\steam\steamapps\common\Cyberpunk 2077\archive\pc\mod\R3 2019.archive</file>
+        </Directory>
+      </Directory>
+    </Directory>
+  </Files>
+</InstalLog>
