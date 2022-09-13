@@ -3,9 +3,9 @@
     "WolvenKitVersion": "8.7.0",
     "WKitJsonVersion": "0.0.3",
     "GameVersion": 1520,
-    "ExportedDateTime": "2022-09-09T00:19:36.3392458Z",
+    "ExportedDateTime": "2022-09-09T00:25:48.2427203Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "D:\\modding\\cp77\\RESTORE 2019\\source\\archive\\base\\weather\\24h_basic\\24h_weather_light_clouds.envparam"
+    "ArchiveFileName": "D:\\modding\\cp77\\RESTORE 2019\\source\\archive\\base\\weather\\24h_basic\\24h_weather_sunny.envparam"
   },
   "Data": {
     "Version": 195,
@@ -19,8 +19,425 @@
           {
             "HandleId": "0",
             "Data": {
+              "$type": "EmitterGroupAreaSettings",
+              "disabledIndexedProperties": 0,
+              "emitterGroupParams": [
+                {
+                  "$type": "EmitterGroupParams",
+                  "emissionScale": 0,
+                  "group": "EG_Group1",
+                  "opacityScale": 0
+                }
+              ],
+              "EmitterGroupParams": [
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 0,
+                        "Value": 0
+                      },
+                      {
+                        "Point": 6,
+                        "Value": 1
+                      },
+                      {
+                        "Point": 20,
+                        "Value": 1
+                      },
+                      {
+                        "Point": 24,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group4",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 0,
+                        "Value": 0
+                      },
+                      {
+                        "Point": 6,
+                        "Value": 1
+                      },
+                      {
+                        "Point": 20,
+                        "Value": 1
+                      },
+                      {
+                        "Point": 24,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  },
+                  "group": "EG_Group1",
+                  "opacityScale": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 12,
+                        "Value": 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "enable": 1
+            }
+          },
+          {
+            "HandleId": "1",
+            "Data": {
               "$type": "WindAreaSettings",
-              "direction": null,
+              "direction": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12.638436,
+                    "Value": {
+                      "$type": "Vector4",
+                      "W": 0,
+                      "X": 0,
+                      "Y": 1,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
               "disabledIndexedProperties": 0,
               "enable": 1,
               "strength": {
@@ -28,7 +445,7 @@
                 "LinkType": "ESLT_Normal",
                 "Elements": [
                   {
-                    "Point": 11.838172,
+                    "Point": 12,
                     "Value": 0.05
                   }
                 ]
@@ -36,7 +453,7 @@
             }
           },
           {
-            "HandleId": "1",
+            "HandleId": "2",
             "Data": {
               "$type": "AtmosphereAreaSettings",
               "artisticDarkeningColor": null,
@@ -1067,408 +1484,6 @@
                 ]
               }
             }
-          },
-          {
-            "HandleId": "2",
-            "Data": {
-              "$type": "CloudAreaSettings",
-              "ambientIntensity": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 2,
-                    "Value": 1
-                  },
-                  {
-                    "Point": 6,
-                    "Value": 0.997828
-                  },
-                  {
-                    "Point": 19.884754,
-                    "Value": 1
-                  },
-                  {
-                    "Point": 23,
-                    "Value": 1
-                  }
-                ]
-              },
-              "ambientOutscatter": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 11.964933,
-                    "Value": 1.4
-                  }
-                ]
-              },
-              "cloudAmbientIntensity": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 4.015602,
-                    "Value": 0.7
-                  },
-                  {
-                    "Point": 6.058,
-                    "Value": 0.68
-                  },
-                  {
-                    "Point": 17.977133,
-                    "Value": 0.68
-                  },
-                  {
-                    "Point": 20.015959,
-                    "Value": 0.7
-                  }
-                ]
-              },
-              "cloudCirrusAltitude": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 12,
-                    "Value": 10
-                  }
-                ]
-              },
-              "cloudCirrusOpacity": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 4,
-                    "Value": 0.9
-                  },
-                  {
-                    "Point": 5.007,
-                    "Value": 0.64
-                  },
-                  {
-                    "Point": 11.943,
-                    "Value": 0.51
-                  },
-                  {
-                    "Point": 17.572,
-                    "Value": 0.64
-                  },
-                  {
-                    "Point": 19.031,
-                    "Value": 0.9
-                  }
-                ]
-              },
-              "cloudCirrusScale": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 11.984085,
-                    "Value": 15
-                  }
-                ]
-              },
-              "cloudCirrusTexture": {
-                "DepotPath": "base\\fx\\environment\\weather\\clear_weather\\q_cirrus_clouds.xbm",
-                "Flags": "Default"
-              },
-              "cloudLightColor": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 1.803,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 0.5,
-                      "Blue": 0.45,
-                      "Green": 0.796502,
-                      "Red": 1
-                    }
-                  },
-                  {
-                    "Point": 4,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 0.25,
-                      "Blue": 0.45,
-                      "Green": 0.796502,
-                      "Red": 1
-                    }
-                  },
-                  {
-                    "Point": 4.68594,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 0.249521,
-                      "Blue": 0.090196,
-                      "Green": 0.301961,
-                      "Red": 1
-                    }
-                  },
-                  {
-                    "Point": 12,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 1,
-                      "Blue": 1,
-                      "Green": 1,
-                      "Red": 1
-                    }
-                  },
-                  {
-                    "Point": 18.487001,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 0.253036,
-                      "Blue": 1,
-                      "Green": 1,
-                      "Red": 1
-                    }
-                  },
-                  {
-                    "Point": 19.128382,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 0.238658,
-                      "Blue": 0.005,
-                      "Green": 0.3035,
-                      "Red": 1
-                    }
-                  },
-                  {
-                    "Point": 20,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 0.25,
-                      "Blue": 0.09125,
-                      "Green": 0.302544,
-                      "Red": 1
-                    }
-                  },
-                  {
-                    "Point": 20.5,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 0.4,
-                      "Blue": 0.30875,
-                      "Green": 0.469471,
-                      "Red": 1
-                    }
-                  },
-                  {
-                    "Point": 22,
-                    "Value": {
-                      "$type": "HDRColor",
-                      "Alpha": 0.5,
-                      "Blue": 1,
-                      "Green": 0.812256,
-                      "Red": 0.59625
-                    }
-                  }
-                ]
-              },
-              "cloudMoonScattering": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 12,
-                    "Value": 0.99
-                  }
-                ]
-              },
-              "cloudsBottom": 400,
-              "cloudsTop": 1000,
-              "cloudSunScattering": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 5,
-                    "Value": 0.9
-                  },
-                  {
-                    "Point": 5.971,
-                    "Value": 0.6
-                  },
-                  {
-                    "Point": 18,
-                    "Value": 0.6
-                  },
-                  {
-                    "Point": 19.637,
-                    "Value": 0.4
-                  },
-                  {
-                    "Point": 21,
-                    "Value": 0.9
-                  }
-                ]
-              },
-              "cloudSunShadowFaloff": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 2,
-                    "Value": 0
-                  },
-                  {
-                    "Point": 4,
-                    "Value": 3
-                  },
-                  {
-                    "Point": 5,
-                    "Value": 6
-                  },
-                  {
-                    "Point": 6,
-                    "Value": 8
-                  },
-                  {
-                    "Point": 12,
-                    "Value": 12
-                  },
-                  {
-                    "Point": 18.5,
-                    "Value": 13
-                  },
-                  {
-                    "Point": 19.5,
-                    "Value": 20
-                  },
-                  {
-                    "Point": 21,
-                    "Value": 10
-                  },
-                  {
-                    "Point": 22,
-                    "Value": 0
-                  }
-                ]
-              },
-              "disabledIndexedProperties": 0,
-              "enable": 1,
-              "inScatter": 0.483776,
-              "inVsOutScatter": 0.5,
-              "lightIntensity": {
-                "InterpolationType": "BezierCubic",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 6.101,
-                    "Value": 1.5
-                  },
-                  {
-                    "Point": 8.326569,
-                    "Value": 1.490533
-                  },
-                  {
-                    "Point": 10.024225,
-                    "Value": 1
-                  },
-                  {
-                    "Point": 11.985838,
-                    "Value": 1
-                  },
-                  {
-                    "Point": 14.021559,
-                    "Value": 1
-                  },
-                  {
-                    "Point": 16.110071,
-                    "Value": 1.481395
-                  },
-                  {
-                    "Point": 18.093,
-                    "Value": 1.5
-                  }
-                ]
-              },
-              "outScatter": 0.486726,
-              "rayStartFalloff": 50,
-              "rayStartOffset": 25,
-              "reflectionProbeLightIntensity": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 4.997,
-                    "Value": 0.001
-                  },
-                  {
-                    "Point": 12,
-                    "Value": 0.001
-                  },
-                  {
-                    "Point": 18.758,
-                    "Value": 0.001
-                  }
-                ]
-              },
-              "shadowIntensity": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 12.175,
-                    "Value": 0.1
-                  }
-                ]
-              },
-              "silverLining": 0.815331,
-              "volCoverage": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 12.041,
-                    "Value": 0.35
-                  }
-                ]
-              },
-              "volCoverageWindInfluence": 0.75,
-              "volDensity": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 12.102,
-                    "Value": 0.4
-                  }
-                ]
-              },
-              "volDetailWindInfluence": 1.25,
-              "volDistantFogOpacity": 0.631268,
-              "volHorizonCoverage": 1,
-              "volNoiseTexture": {
-                "DepotPath": "base\\textures\\clouds\\cloud_noise.xbm",
-                "Flags": "Default"
-              },
-              "volNoiseWindInfluence": 1,
-              "volWeatherTexture": {
-                "DepotPath": "base\\textures\\clouds\\cloud_weather.xbm",
-                "Flags": "Default"
-              },
-              "worldShadowIntensity": {
-                "InterpolationType": "Linear",
-                "LinkType": "ESLT_Normal",
-                "Elements": [
-                  {
-                    "Point": 12,
-                    "Value": 1.3
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "HandleRefId": "-1"
           }
         ]
       },
