@@ -1,0 +1,1479 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.7.0",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1520,
+    "ExportedDateTime": "2022-09-09T00:19:36.3392458Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "D:\\modding\\cp77\\RESTORE 2019\\source\\archive\\base\\weather\\24h_basic\\24h_weather_light_clouds.envparam"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "worldEnvironmentAreaParameters",
+      "cookingPlatform": "PLATFORM_PC",
+      "renderAreaSettings": {
+        "$type": "WorldRenderAreaSettings",
+        "areaParameters": [
+          {
+            "HandleId": "0",
+            "Data": {
+              "$type": "WindAreaSettings",
+              "direction": null,
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "strength": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 11.838172,
+                    "Value": 0.05
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "HandleId": "1",
+            "Data": {
+              "$type": "AtmosphereAreaSettings",
+              "artisticDarkeningColor": null,
+              "artisticDarkeningEndPoint": null,
+              "artisticDarkeningExponent": null,
+              "artisticDarkeningStartPoint": null,
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "galaxyIntensity": null,
+              "galaxyTexture": {
+                "DepotPath": 0,
+                "Flags": "Default"
+              },
+              "groundReflectance": null,
+              "horizonFalloff": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.01
+                  }
+                ]
+              },
+              "horizonMinZ": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.04
+                  }
+                ]
+              },
+              "lutTurbidity": null,
+              "moonColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  },
+                  {
+                    "Point": 2,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.3,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  },
+                  {
+                    "Point": 22,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.3,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  },
+                  {
+                    "Point": 22.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  },
+                  {
+                    "Point": 24,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  }
+                ]
+              },
+              "moonFalloff": null,
+              "moonGlowFalloff": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 5
+                  }
+                ]
+              },
+              "moonGlowIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": 0.003
+                  }
+                ]
+              },
+              "moonTexture": {
+                "DepotPath": "engine\\textures\\sky\\moon.xbm",
+                "Flags": "Default"
+              },
+              "probeAlphaOverrideHorizon": null,
+              "probeAlphaOverrideZenith": null,
+              "probeColorOverrideHorizon": null,
+              "probeColorOverrideZenith": null,
+              "rayTracedSunShadowRange": null,
+              "skydomeColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 2.014528,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.02,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 3,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.03,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 3.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.06,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 4,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.1,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 4.25,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.2,
+                      "Blue": 1,
+                      "Green": 0.629349,
+                      "Red": 0.42
+                    }
+                  },
+                  {
+                    "Point": 4.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.4,
+                      "Blue": 1,
+                      "Green": 0.680473,
+                      "Red": 0.5
+                    }
+                  },
+                  {
+                    "Point": 4.833,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 4.937964,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 2.5,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 5.033,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 4.450001,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 5.133,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 8,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 5.267,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 14,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 5.367,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 20,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 5.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 30,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 6,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 65,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 6.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 100,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 7.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 145,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 8.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 170,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 10,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 180,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 180,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 14,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 180,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 15.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 170,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 16.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 145,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 17.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 100,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 65,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 30,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18.730642,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 15.862064,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 19,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 5.75,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.9
+                    }
+                  },
+                  {
+                    "Point": 19.167,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 3.35,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.88
+                    }
+                  },
+                  {
+                    "Point": 19.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 2.2,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.88
+                    }
+                  },
+                  {
+                    "Point": 20,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1.35,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.88
+                    }
+                  },
+                  {
+                    "Point": 21,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.7,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.88
+                    }
+                  },
+                  {
+                    "Point": 22,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.02,
+                      "Blue": 1,
+                      "Green": 0.580047,
+                      "Red": 0.34125
+                    }
+                  }
+                ]
+              },
+              "skylightColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 2,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 3,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 3.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 4,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.337255
+                    }
+                  },
+                  {
+                    "Point": 4.25,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 0.629349,
+                      "Red": 0.42
+                    }
+                  },
+                  {
+                    "Point": 4.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 0.678295,
+                      "Red": 0.5
+                    }
+                  },
+                  {
+                    "Point": 4.7,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 2,
+                      "Blue": 1,
+                      "Green": 0.678295,
+                      "Red": 0.5
+                    }
+                  },
+                  {
+                    "Point": 4.833,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 3.16,
+                      "Blue": 1,
+                      "Green": 0.679687,
+                      "Red": 0.5
+                    }
+                  },
+                  {
+                    "Point": 4.937,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 5.059998,
+                      "Blue": 1,
+                      "Green": 0.679687,
+                      "Red": 0.5
+                    }
+                  },
+                  {
+                    "Point": 5.033,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 9.869999,
+                      "Blue": 1,
+                      "Green": 0.743749,
+                      "Red": 0.6
+                    }
+                  },
+                  {
+                    "Point": 5.133,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 15.939999,
+                      "Blue": 1,
+                      "Green": 0.807812,
+                      "Red": 0.7
+                    }
+                  },
+                  {
+                    "Point": 5.267,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 25.065071,
+                      "Blue": 1,
+                      "Green": 0.851855,
+                      "Red": 0.76875
+                    }
+                  },
+                  {
+                    "Point": 5.367,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 34.56,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 5.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 45.95,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 6,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 85.82,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 7.383401,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 146.85266,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 7.883401,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 165.45265,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 8.383401,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 177.10266,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 8.971469,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 180,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 180,
+                      "Blue": 0.85,
+                      "Green": 0.94,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 14.472234,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 178.6207,
+                      "Blue": 0.85,
+                      "Green": 0.945625,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 16.058907,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 164.48323,
+                      "Blue": 0.9,
+                      "Green": 0.9525,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 16.912178,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 148.15933,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 90,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 44,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18.833,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 18.233,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 19,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 8.4,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.9
+                    }
+                  },
+                  {
+                    "Point": 19.167,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 4.7,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.88
+                    }
+                  },
+                  {
+                    "Point": 19.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 3.4,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.88
+                    }
+                  },
+                  {
+                    "Point": 20,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1.45,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.88
+                    }
+                  },
+                  {
+                    "Point": 21,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.88
+                    }
+                  },
+                  {
+                    "Point": 22,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 0.576471,
+                      "Red": 0.341176
+                    }
+                  }
+                ]
+              },
+              "starCornerLuminanceFix": null,
+              "starMapBrightScale": null,
+              "starMapConstelationsScale": null,
+              "starMapDimScale": null,
+              "starMapIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": 0.05
+                  }
+                ]
+              },
+              "starMapTexture": {
+                "DepotPath": 0,
+                "Flags": "Default"
+              },
+              "sunColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 2,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.070588,
+                      "Green": 0.541176,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 4,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.1,
+                      "Blue": 0.070588,
+                      "Green": 0.541176,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 4.833,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.2,
+                      "Blue": 0.066667,
+                      "Green": 0.537255,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 5.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 6.583,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 17,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 9,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 42,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 50,
+                      "Blue": 0.87451,
+                      "Green": 0.929412,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 15,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 42,
+                      "Blue": 0.698039,
+                      "Green": 0.858824,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 17.333,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 17,
+                      "Blue": 0.8,
+                      "Green": 0.907826,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.14902,
+                      "Green": 0.513726,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18.833,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.525,
+                      "Green": 0.695737,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 19,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.2,
+                      "Green": 0.391305,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 19.167,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0,
+                      "Green": 0.45,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 19.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.070588,
+                      "Green": 0.539012,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 20.25,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.113,
+                      "Green": 0.32588,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 20.748,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.1125,
+                      "Green": 0.27225,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 22,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.1125,
+                      "Green": 0.27225,
+                      "Red": 1
+                    }
+                  }
+                ]
+              },
+              "sunFalloff": null,
+              "sunMinZ": null,
+              "turbidity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": 7
+                  },
+                  {
+                    "Point": 4.6,
+                    "Value": 5
+                  },
+                  {
+                    "Point": 5.971511,
+                    "Value": 3
+                  },
+                  {
+                    "Point": 8,
+                    "Value": 1.8
+                  },
+                  {
+                    "Point": 9.971535,
+                    "Value": 1.3
+                  },
+                  {
+                    "Point": 12,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 15.008915,
+                    "Value": 1.11756
+                  },
+                  {
+                    "Point": 17.073416,
+                    "Value": 1.5
+                  },
+                  {
+                    "Point": 19.027472,
+                    "Value": 3.5
+                  },
+                  {
+                    "Point": 21,
+                    "Value": 7
+                  },
+                  {
+                    "Point": 21.997128,
+                    "Value": 9
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "HandleId": "2",
+            "Data": {
+              "$type": "CloudAreaSettings",
+              "ambientIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 2,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 6,
+                    "Value": 0.997828
+                  },
+                  {
+                    "Point": 19.884754,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 23,
+                    "Value": 1
+                  }
+                ]
+              },
+              "ambientOutscatter": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 11.964933,
+                    "Value": 1.4
+                  }
+                ]
+              },
+              "cloudAmbientIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 4.015602,
+                    "Value": 0.7
+                  },
+                  {
+                    "Point": 6.058,
+                    "Value": 0.68
+                  },
+                  {
+                    "Point": 17.977133,
+                    "Value": 0.68
+                  },
+                  {
+                    "Point": 20.015959,
+                    "Value": 0.7
+                  }
+                ]
+              },
+              "cloudCirrusAltitude": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 10
+                  }
+                ]
+              },
+              "cloudCirrusOpacity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 4,
+                    "Value": 0.9
+                  },
+                  {
+                    "Point": 5.007,
+                    "Value": 0.64
+                  },
+                  {
+                    "Point": 11.943,
+                    "Value": 0.51
+                  },
+                  {
+                    "Point": 17.572,
+                    "Value": 0.64
+                  },
+                  {
+                    "Point": 19.031,
+                    "Value": 0.9
+                  }
+                ]
+              },
+              "cloudCirrusScale": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 11.984085,
+                    "Value": 15
+                  }
+                ]
+              },
+              "cloudCirrusTexture": {
+                "DepotPath": "base\\fx\\environment\\weather\\clear_weather\\q_cirrus_clouds.xbm",
+                "Flags": "Default"
+              },
+              "cloudLightColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 1.803,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.5,
+                      "Blue": 0.45,
+                      "Green": 0.796502,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 4,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.25,
+                      "Blue": 0.45,
+                      "Green": 0.796502,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 4.68594,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.249521,
+                      "Blue": 0.090196,
+                      "Green": 0.301961,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 18.487001,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.253036,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 19.128382,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.238658,
+                      "Blue": 0.005,
+                      "Green": 0.3035,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 20,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.25,
+                      "Blue": 0.09125,
+                      "Green": 0.302544,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 20.5,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.4,
+                      "Blue": 0.30875,
+                      "Green": 0.469471,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 22,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.5,
+                      "Blue": 1,
+                      "Green": 0.812256,
+                      "Red": 0.59625
+                    }
+                  }
+                ]
+              },
+              "cloudMoonScattering": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.99
+                  }
+                ]
+              },
+              "cloudsBottom": 400,
+              "cloudsTop": 1000,
+              "cloudSunScattering": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 5,
+                    "Value": 0.9
+                  },
+                  {
+                    "Point": 5.971,
+                    "Value": 0.6
+                  },
+                  {
+                    "Point": 18,
+                    "Value": 0.6
+                  },
+                  {
+                    "Point": 19.637,
+                    "Value": 0.4
+                  },
+                  {
+                    "Point": 21,
+                    "Value": 0.9
+                  }
+                ]
+              },
+              "cloudSunShadowFaloff": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 2,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 4,
+                    "Value": 3
+                  },
+                  {
+                    "Point": 5,
+                    "Value": 6
+                  },
+                  {
+                    "Point": 6,
+                    "Value": 8
+                  },
+                  {
+                    "Point": 12,
+                    "Value": 12
+                  },
+                  {
+                    "Point": 18.5,
+                    "Value": 13
+                  },
+                  {
+                    "Point": 19.5,
+                    "Value": 20
+                  },
+                  {
+                    "Point": 21,
+                    "Value": 10
+                  },
+                  {
+                    "Point": 22,
+                    "Value": 0
+                  }
+                ]
+              },
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "inScatter": 0.483776,
+              "inVsOutScatter": 0.5,
+              "lightIntensity": {
+                "InterpolationType": "BezierCubic",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 6.101,
+                    "Value": 1.5
+                  },
+                  {
+                    "Point": 8.326569,
+                    "Value": 1.490533
+                  },
+                  {
+                    "Point": 10.024225,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 11.985838,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 14.021559,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 16.110071,
+                    "Value": 1.481395
+                  },
+                  {
+                    "Point": 18.093,
+                    "Value": 1.5
+                  }
+                ]
+              },
+              "outScatter": 0.486726,
+              "rayStartFalloff": 50,
+              "rayStartOffset": 25,
+              "reflectionProbeLightIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 4.997,
+                    "Value": 0.001
+                  },
+                  {
+                    "Point": 12,
+                    "Value": 0.001
+                  },
+                  {
+                    "Point": 18.758,
+                    "Value": 0.001
+                  }
+                ]
+              },
+              "shadowIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12.175,
+                    "Value": 0.1
+                  }
+                ]
+              },
+              "silverLining": 0.815331,
+              "volCoverage": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12.041,
+                    "Value": 0.35
+                  }
+                ]
+              },
+              "volCoverageWindInfluence": 0.75,
+              "volDensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12.102,
+                    "Value": 0.4
+                  }
+                ]
+              },
+              "volDetailWindInfluence": 1.25,
+              "volDistantFogOpacity": 0.631268,
+              "volHorizonCoverage": 1,
+              "volNoiseTexture": {
+                "DepotPath": "base\\textures\\clouds\\cloud_noise.xbm",
+                "Flags": "Default"
+              },
+              "volNoiseWindInfluence": 1,
+              "volWeatherTexture": {
+                "DepotPath": "base\\textures\\clouds\\cloud_weather.xbm",
+                "Flags": "Default"
+              },
+              "worldShadowIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 1.3
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "HandleRefId": "-1"
+          }
+        ]
+      },
+      "resourceVersion": 1
+    },
+    "EmbeddedFiles": []
+  }
+}

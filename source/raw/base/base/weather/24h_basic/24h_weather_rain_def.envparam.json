@@ -1,0 +1,1828 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.7.0-nightly.2022-08-21",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1520,
+    "ExportedDateTime": "2022-08-30T00:27:27.8633590Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "D:\\modding\\cp77\\R3 2019\\source\\archive\\base\\weather\\24h_basic\\24h_weather_rain_def.envparam"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "worldEnvironmentAreaParameters",
+      "cookingPlatform": "PLATFORM_PC",
+      "renderAreaSettings": {
+        "$type": "WorldRenderAreaSettings",
+        "areaParameters": [
+          {
+            "HandleId": "0",
+            "Data": {
+              "$type": "AtmosphereAreaSettings",
+              "artisticDarkeningColor": null,
+              "artisticDarkeningEndPoint": null,
+              "artisticDarkeningExponent": null,
+              "artisticDarkeningStartPoint": null,
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "galaxyIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0
+                  }
+                ]
+              },
+              "galaxyTexture": {
+                "DepotPath": "base\\textures\\stars\\galaxy.xbm",
+                "Flags": "Default"
+              },
+              "groundReflectance": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  }
+                ]
+              },
+              "horizonFalloff": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.04
+                  }
+                ]
+              },
+              "horizonMinZ": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.04
+                  }
+                ]
+              },
+              "lutTurbidity": null,
+              "moonColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  },
+                  {
+                    "Point": 2,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  },
+                  {
+                    "Point": 22,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  },
+                  {
+                    "Point": 24,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.785,
+                      "Green": 0.727449,
+                      "Red": 0.694725
+                    }
+                  }
+                ]
+              },
+              "moonFalloff": null,
+              "moonGlowFalloff": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 5
+                  }
+                ]
+              },
+              "moonGlowIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": 0.003
+                  }
+                ]
+              },
+              "moonTexture": {
+                "DepotPath": "engine\\textures\\sky\\moon.xbm",
+                "Flags": "Default"
+              },
+              "probeAlphaOverrideHorizon": null,
+              "probeAlphaOverrideZenith": null,
+              "probeColorOverrideHorizon": null,
+              "probeColorOverrideZenith": null,
+              "rayTracedSunShadowRange": null,
+              "skydomeColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.002,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.3
+                    }
+                  },
+                  {
+                    "Point": 4,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.12,
+                      "Blue": 0.922001,
+                      "Green": 1,
+                      "Red": 0.35
+                    }
+                  },
+                  {
+                    "Point": 4.937739,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.204193,
+                      "Blue": 0.758188,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 6.02297,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.349998,
+                      "Blue": 0.758187,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 8.84304,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.483479,
+                      "Blue": 0.651035,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 12.383793,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.608187,
+                      "Blue": 0.7314,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 16.6,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.55,
+                      "Blue": 0.651036,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 18.029867,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.349998,
+                      "Blue": 0.758187,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 19.035557,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.253316,
+                      "Blue": 0.758187,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 20,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.2,
+                      "Blue": 0.922,
+                      "Green": 1,
+                      "Red": 0.35
+                    }
+                  },
+                  {
+                    "Point": 24,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.001,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.3
+                    }
+                  }
+                ]
+              },
+              "skylightColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.04,
+                      "Blue": 0.958,
+                      "Green": 1,
+                      "Red": 0.3
+                    }
+                  },
+                  {
+                    "Point": 4,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.12,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.35
+                    }
+                  },
+                  {
+                    "Point": 5.045,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.31755,
+                      "Blue": 0.811765,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 6.313821,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.382484,
+                      "Blue": 0.811765,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 9.743,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.480138,
+                      "Blue": 0.7314,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 12.215,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.551211,
+                      "Blue": 0.758189,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 17.024328,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.43,
+                      "Blue": 0.7314,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 18.242163,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.392909,
+                      "Blue": 0.811765,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 18.992,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.27883,
+                      "Blue": 0.811765,
+                      "Green": 0.811765,
+                      "Red": 0.365294
+                    }
+                  },
+                  {
+                    "Point": 20.03504,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.2,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 0.35
+                    }
+                  },
+                  {
+                    "Point": 24,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.04,
+                      "Blue": 0.958,
+                      "Green": 1,
+                      "Red": 0.3
+                    }
+                  }
+                ]
+              },
+              "starCornerLuminanceFix": null,
+              "starMapBrightScale": null,
+              "starMapConstelationsScale": null,
+              "starMapDimScale": null,
+              "starMapIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": 0.05
+                  }
+                ]
+              },
+              "starMapTexture": {
+                "DepotPath": "base\\textures\\stars\\starmap.cubemap",
+                "Flags": "Default"
+              },
+              "sunColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 2,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.070588,
+                      "Green": 0.541176,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.87451,
+                      "Green": 0.929412,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 22,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.1125,
+                      "Green": 0.27225,
+                      "Red": 1
+                    }
+                  }
+                ]
+              },
+              "sunFalloff": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.001
+                  }
+                ]
+              },
+              "sunMinZ": null,
+              "turbidity": {
+                "InterpolationType": "BezierCubic",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 6.047744,
+                    "Value": 10
+                  },
+                  {
+                    "Point": 6.807043,
+                    "Value": 8.254375
+                  },
+                  {
+                    "Point": 8.001,
+                    "Value": 8.01158
+                  },
+                  {
+                    "Point": 12,
+                    "Value": 8
+                  },
+                  {
+                    "Point": 15.840989,
+                    "Value": 7.896842
+                  },
+                  {
+                    "Point": 17.650972,
+                    "Value": 8.006922
+                  },
+                  {
+                    "Point": 18.047302,
+                    "Value": 10
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "HandleId": "1",
+            "Data": {
+              "$type": "DistantFogAreaSettings",
+              "albedoFar": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.4,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  }
+                ]
+              },
+              "albedoNear": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.2,
+                      "Blue": 0.71875,
+                      "Green": 0.71875,
+                      "Red": 0.71875
+                    }
+                  }
+                ]
+              },
+              "density": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 3,
+                    "Value": 3
+                  }
+                ]
+              },
+              "densitySecond": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 3,
+                    "Value": 12
+                  },
+                  {
+                    "Point": 22,
+                    "Value": 12
+                  }
+                ]
+              },
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "envProbeColor": null,
+              "envProbeDensity": null,
+              "farDistance": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 22.5,
+                    "Value": 20000
+                  }
+                ]
+              },
+              "height": null,
+              "heightFallof": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.5
+                  }
+                ]
+              },
+              "heightFallofSecond": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 3
+                  }
+                ]
+              },
+              "heightSecond": null,
+              "nearDistance": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 150
+                  }
+                ]
+              },
+              "range": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 5,
+                    "Value": 90
+                  },
+                  {
+                    "Point": 7.899868,
+                    "Value": 90
+                  },
+                  {
+                    "Point": 15.966047,
+                    "Value": 90
+                  },
+                  {
+                    "Point": 19,
+                    "Value": 90
+                  }
+                ]
+              },
+              "simpleColor": null,
+              "simpleDensity": null,
+              "skyAltitudeBegin": null,
+              "skyAltitudeEnd": null,
+              "skyOpacity": null
+            }
+          },
+          {
+            "HandleId": "2",
+            "Data": {
+              "$type": "LightAreaSettings",
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "latitude": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 34
+                  }
+                ]
+              },
+              "moonColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.2,
+                      "Blue": 1,
+                      "Green": 0.854902,
+                      "Red": 0.792157
+                    }
+                  },
+                  {
+                    "Point": 3,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 1,
+                      "Green": 0.854902,
+                      "Red": 0.792157
+                    }
+                  },
+                  {
+                    "Point": 21.000257,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 1,
+                      "Green": 0.854902,
+                      "Red": 0.792157
+                    }
+                  },
+                  {
+                    "Point": 22,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0.2,
+                      "Blue": 1,
+                      "Green": 0.854902,
+                      "Red": 0.792157
+                    }
+                  }
+                ]
+              },
+              "moonRotationOffset": null,
+              "moonSize": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12.144679,
+                    "Value": 0.016598
+                  }
+                ]
+              },
+              "season": "ETOYS_Summer",
+              "specularTint": null,
+              "sunColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.555472,
+                      "Green": 0.555472,
+                      "Red": 0.555472
+                    }
+                  },
+                  {
+                    "Point": 4.847789,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.070588,
+                      "Green": 0.541176,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 19.167,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0,
+                      "Green": 0.06,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 24,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.121875,
+                      "Green": 0.121875,
+                      "Red": 0.975
+                    }
+                  }
+                ]
+              },
+              "sunRotationOffset": null,
+              "sunSize": null
+            }
+          },
+          {
+            "HandleId": "3",
+            "Data": {
+              "$type": "VolumetricFogAreaSettings",
+              "absorption": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 4,
+                    "Value": 0.5
+                  },
+                  {
+                    "Point": 5,
+                    "Value": 0.8
+                  },
+                  {
+                    "Point": 19,
+                    "Value": 0.8
+                  },
+                  {
+                    "Point": 20,
+                    "Value": 0.5
+                  }
+                ]
+              },
+              "albedo": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 11.964933,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  }
+                ]
+              },
+              "ambientScale": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 3,
+                    "Value": 0.7
+                  },
+                  {
+                    "Point": 5,
+                    "Value": 0.7
+                  },
+                  {
+                    "Point": 19,
+                    "Value": 0.7
+                  },
+                  {
+                    "Point": 21,
+                    "Value": 0.7
+                  }
+                ]
+              },
+              "density": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.01
+                  }
+                ]
+              },
+              "disabledIndexedProperties": 0,
+              "distantAlbedo": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 1,
+                      "Blue": 0.9,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  }
+                ]
+              },
+              "distantGlobalLightScale": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.001
+                  }
+                ]
+              },
+              "distantGroundIrradiance": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.5
+                  }
+                ]
+              },
+              "distantGroundSaturation": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 2
+                  }
+                ]
+              },
+              "distantShadowAmbientDarkening": null,
+              "distantSkyIrradiance": {
+                "InterpolationType": "BezierCubic",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 6,
+                    "Value": 0.2
+                  },
+                  {
+                    "Point": 7.744943,
+                    "Value": 0.201092
+                  },
+                  {
+                    "Point": 8.537135,
+                    "Value": 0.002183
+                  },
+                  {
+                    "Point": 12,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 16.175821,
+                    "Value": 0.002573
+                  },
+                  {
+                    "Point": 16.38851,
+                    "Value": 0.190878
+                  },
+                  {
+                    "Point": 18,
+                    "Value": 0.2
+                  }
+                ]
+              },
+              "enable": 1,
+              "fogHeight": null,
+              "fogHeightFalloff": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 19,
+                    "Value": -0.01
+                  }
+                ]
+              },
+              "fogHeightMaxCut": null,
+              "globalLightAnisotropy": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.85
+                  }
+                ]
+              },
+              "globalLightAnisotropyBase": null,
+              "globalLightAnisotropyScale": null,
+              "globalLightScale": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 5.001,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 5.3,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 12.013739,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 18.75,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 19,
+                    "Value": 0
+                  }
+                ]
+              },
+              "localAmbientScale": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 3,
+                    "Value": 0.7
+                  },
+                  {
+                    "Point": 5,
+                    "Value": 0.7
+                  },
+                  {
+                    "Point": 19,
+                    "Value": 0.7
+                  },
+                  {
+                    "Point": 21,
+                    "Value": 0.7
+                  }
+                ]
+              },
+              "localLightRange": null,
+              "localLightScale": null,
+              "range": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 512
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "HandleId": "4",
+            "Data": {
+              "$type": "ExposureAreaSettings",
+              "cameraVelocityFaloff": 3,
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "exposureAdaptationSpeedDown": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": 7.5
+                  }
+                ]
+              },
+              "exposureAdaptationSpeedUp": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": 4
+                  }
+                ]
+              },
+              "exposureCenterImportance": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 3.5,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 6,
+                    "Value": 2.25
+                  },
+                  {
+                    "Point": 19,
+                    "Value": 2.25
+                  },
+                  {
+                    "Point": 21.5,
+                    "Value": 0
+                  }
+                ]
+              },
+              "exposureCompensation": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 18,
+                    "Value": -0.65
+                  }
+                ]
+              },
+              "exposureMax": {
+                "InterpolationType": "BezierCubic",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 4,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 4.578328,
+                    "Value": 1.076636
+                  },
+                  {
+                    "Point": 4.65753,
+                    "Value": 1.218434
+                  },
+                  {
+                    "Point": 4.79547,
+                    "Value": 2
+                  },
+                  {
+                    "Point": 4.919546,
+                    "Value": 2.410685
+                  },
+                  {
+                    "Point": 5.217499,
+                    "Value": 2.97461
+                  },
+                  {
+                    "Point": 5.990098,
+                    "Value": 3.423211
+                  },
+                  {
+                    "Point": 7.104658,
+                    "Value": 3.960302
+                  },
+                  {
+                    "Point": 10.018601,
+                    "Value": 4.496426
+                  },
+                  {
+                    "Point": 12.067881,
+                    "Value": 4.499915
+                  },
+                  {
+                    "Point": 14.040448,
+                    "Value": 4.503272
+                  },
+                  {
+                    "Point": 17.382374,
+                    "Value": 3.815868
+                  },
+                  {
+                    "Point": 18.069342,
+                    "Value": 3.331537
+                  },
+                  {
+                    "Point": 18.62497,
+                    "Value": 3.118586
+                  },
+                  {
+                    "Point": 18.90564,
+                    "Value": 2.562139
+                  },
+                  {
+                    "Point": 19.000149,
+                    "Value": 2
+                  },
+                  {
+                    "Point": 19.064333,
+                    "Value": 1.116198
+                  },
+                  {
+                    "Point": 19.298485,
+                    "Value": 1.008621
+                  },
+                  {
+                    "Point": 20,
+                    "Value": 1
+                  }
+                ]
+              },
+              "exposureMin": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 20,
+                    "Value": -1.2
+                  }
+                ]
+              },
+              "exposurePercentageThresholdHigh": {
+                "InterpolationType": "BezierCubic",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 19,
+                    "Value": 0.08
+                  }
+                ]
+              },
+              "exposurePercentageThresholdLow": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0.005,
+                    "Value": 0.02
+                  }
+                ]
+              },
+              "exposureSkyImpact": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 4,
+                    "Value": 0.2
+                  },
+                  {
+                    "Point": 5.5,
+                    "Value": 0.2
+                  },
+                  {
+                    "Point": 18.5,
+                    "Value": 0.2
+                  },
+                  {
+                    "Point": 20.031357,
+                    "Value": 0.2
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "HandleId": "5",
+            "Data": {
+              "$type": "RainAreaSettings",
+              "baseColorFactor": 0.2,
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "globalLightResponse": 1,
+              "glossinessFactor": 0.85,
+              "heightRange": 40,
+              "moistureAccumulationSpeed": 5,
+              "moistureEvaporationSpeed": 2.5,
+              "numParticles": 0,
+              "porosityThresholdEnd": 1,
+              "porosityThresholdStart": 0.55,
+              "puddlesAccumulationSpeed": 1.5,
+              "puddlesEvaporationSpeed": 0.25,
+              "radius": 45,
+              "raindropsMask": {
+                "DepotPath": "base\\textures\\rain\\raindrops_mask.xbm",
+                "Flags": "Default"
+              },
+              "rainIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 1
+                  }
+                ]
+              },
+              "rainleaksMask": {
+                "DepotPath": "base\\textures\\rain\\rainleaks_mask.xbm",
+                "Flags": "Default"
+              },
+              "rainMoistureOverride": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 1
+                  }
+                ]
+              },
+              "rainOverride": null,
+              "rainPuddlesOverride": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 1
+                  }
+                ]
+              },
+              "rainRipplesMask": {
+                "DepotPath": "base\\textures\\rain\\rainripples_mask.xbm",
+                "Flags": "Default"
+              },
+              "tiling": null,
+              "waterRainIntensity": 0
+            }
+          },
+          {
+            "HandleId": "6",
+            "Data": {
+              "$type": "WindAreaSettings",
+              "direction": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": {
+                      "$type": "Vector4",
+                      "W": 0,
+                      "X": 0,
+                      "Y": 1,
+                      "Z": 0
+                    }
+                  },
+                  {
+                    "Point": 10.624,
+                    "Value": {
+                      "$type": "Vector4",
+                      "W": 0,
+                      "X": 1,
+                      "Y": -1.019905,
+                      "Z": 0
+                    }
+                  },
+                  {
+                    "Point": 13.249,
+                    "Value": {
+                      "$type": "Vector4",
+                      "W": 0,
+                      "X": 0,
+                      "Y": 1,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "strength": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 0,
+                    "Value": 0.25
+                  },
+                  {
+                    "Point": 2.247,
+                    "Value": 0.27
+                  },
+                  {
+                    "Point": 3.81,
+                    "Value": 0.26
+                  },
+                  {
+                    "Point": 5.174,
+                    "Value": 0.23
+                  },
+                  {
+                    "Point": 6.97,
+                    "Value": 0.21
+                  },
+                  {
+                    "Point": 9.151,
+                    "Value": 0.25
+                  },
+                  {
+                    "Point": 11.491,
+                    "Value": 0.27
+                  },
+                  {
+                    "Point": 13,
+                    "Value": 0.242766
+                  },
+                  {
+                    "Point": 15,
+                    "Value": 0.243617
+                  },
+                  {
+                    "Point": 17.007,
+                    "Value": 0.26
+                  },
+                  {
+                    "Point": 18.922,
+                    "Value": 0.23
+                  },
+                  {
+                    "Point": 20.655,
+                    "Value": 0.23
+                  },
+                  {
+                    "Point": 21.776,
+                    "Value": 0.200001
+                  },
+                  {
+                    "Point": 24,
+                    "Value": 0.25
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "HandleId": "7",
+            "Data": {
+              "$type": "EmitterGroupAreaSettings",
+              "disabledIndexedProperties": 0,
+              "emitterGroupParams": [
+                {
+                  "$type": "EmitterGroupParams",
+                  "emissionScale": 1,
+                  "group": "EG_Group1",
+                  "opacityScale": 1
+                }
+              ],
+              "EmitterGroupParams": [
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                },
+                {
+                  "$type": "EmitterGroupAreaParams",
+                  "emissionScale": null,
+                  "group": "EG_Group1",
+                  "opacityScale": null
+                }
+              ],
+              "enable": 1
+            }
+          },
+          {
+            "HandleId": "8",
+            "Data": {
+              "$type": "HeatHazeAreaSettings",
+              "disabledIndexedProperties": 0,
+              "effectStrength": null,
+              "enable": 1,
+              "maxDistance": null,
+              "movementSpeedScale": null,
+              "patternScale": null,
+              "startDistance": null
+            }
+          },
+          {
+            "HandleId": "9",
+            "Data": {
+              "$type": "CloudAreaSettings",
+              "ambientIntensity": {
+                "InterpolationType": "BezierCubic",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 2,
+                    "Value": 0.5
+                  },
+                  {
+                    "Point": 3,
+                    "Value": 0.5
+                  },
+                  {
+                    "Point": 3.957622,
+                    "Value": 0.496256
+                  },
+                  {
+                    "Point": 5,
+                    "Value": 0.5
+                  },
+                  {
+                    "Point": 6.921321,
+                    "Value": 0.501642
+                  },
+                  {
+                    "Point": 9.690198,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 12.035297,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 14.356865,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 16.805567,
+                    "Value": 0.505959
+                  },
+                  {
+                    "Point": 19,
+                    "Value": 0.5
+                  },
+                  {
+                    "Point": 20.210121,
+                    "Value": 0.495965
+                  },
+                  {
+                    "Point": 20.996464,
+                    "Value": 0.5
+                  },
+                  {
+                    "Point": 21.994696,
+                    "Value": 0.5
+                  }
+                ]
+              },
+              "ambientOutscatter": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.5
+                  }
+                ]
+              },
+              "cloudAmbientIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 5.09481,
+                    "Value": 0.4
+                  },
+                  {
+                    "Point": 12,
+                    "Value": 0.5
+                  },
+                  {
+                    "Point": 18.45,
+                    "Value": 0.678087
+                  },
+                  {
+                    "Point": 22.672,
+                    "Value": 0.4
+                  }
+                ]
+              },
+              "cloudCirrusAltitude": null,
+              "cloudCirrusOpacity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0
+                  }
+                ]
+              },
+              "cloudCirrusScale": null,
+              "cloudCirrusTexture": {
+                "DepotPath": "base\\fx\\environment\\weather\\clear_weather\\bob_cirrus_clouds.xbm",
+                "Flags": "Default"
+              },
+              "cloudLightColor": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 4,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.45,
+                      "Green": 0.796502,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 12,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 1,
+                      "Green": 1,
+                      "Red": 1
+                    }
+                  },
+                  {
+                    "Point": 19,
+                    "Value": {
+                      "$type": "HDRColor",
+                      "Alpha": 0,
+                      "Blue": 0.02,
+                      "Green": 0.314,
+                      "Red": 1
+                    }
+                  }
+                ]
+              },
+              "cloudMoonScattering": null,
+              "cloudsBottom": 400,
+              "cloudsTop": 1000,
+              "cloudSunScattering": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 4.30472,
+                    "Value": 0.4
+                  },
+                  {
+                    "Point": 12,
+                    "Value": 0.5
+                  },
+                  {
+                    "Point": 19.5,
+                    "Value": 0.7
+                  }
+                ]
+              },
+              "cloudSunShadowFaloff": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 2,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 4,
+                    "Value": 3
+                  },
+                  {
+                    "Point": 5,
+                    "Value": 6
+                  },
+                  {
+                    "Point": 6,
+                    "Value": 8
+                  },
+                  {
+                    "Point": 12,
+                    "Value": 12
+                  },
+                  {
+                    "Point": 18.5,
+                    "Value": 13
+                  },
+                  {
+                    "Point": 19.5,
+                    "Value": 20
+                  },
+                  {
+                    "Point": 21,
+                    "Value": 10
+                  },
+                  {
+                    "Point": 22,
+                    "Value": 0
+                  }
+                ]
+              },
+              "disabledIndexedProperties": 0,
+              "enable": 1,
+              "inScatter": 0.2,
+              "inVsOutScatter": 0.5,
+              "lightIntensity": {
+                "InterpolationType": "BezierCubic",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 6,
+                    "Value": 0
+                  },
+                  {
+                    "Point": 6.47802,
+                    "Value": 0.010643
+                  },
+                  {
+                    "Point": 6.47902,
+                    "Value": 0.996514
+                  },
+                  {
+                    "Point": 12.010211,
+                    "Value": 1
+                  },
+                  {
+                    "Point": 18.374113,
+                    "Value": 0.996154
+                  },
+                  {
+                    "Point": 18.375113,
+                    "Value": 0.007163
+                  },
+                  {
+                    "Point": 19,
+                    "Value": 0
+                  }
+                ]
+              },
+              "outScatter": 0.1,
+              "rayStartFalloff": 50,
+              "rayStartOffset": 25,
+              "reflectionProbeLightIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 1
+                  }
+                ]
+              },
+              "shadowIntensity": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0
+                  }
+                ]
+              },
+              "silverLining": 0.8,
+              "volCoverage": {
+                "InterpolationType": "Linear",
+                "LinkType": "ESLT_Normal",
+                "Elements": [
+                  {
+                    "Point": 12,
+                    "Value": 0.75
+                  }
+                ]
+              },
+              "volCoverageWindInfluence": 0.75,
+              "volDensity": null,
+              "volDetailWindInfluence": 1.25,
+              "volDistantFogOpacity": 1,
+              "volHorizonCoverage": 1,
+              "volNoiseTexture": {
+                "DepotPath": "base\\textures\\clouds\\cloud_noise.xbm",
+                "Flags": "Default"
+              },
+              "volNoiseWindInfluence": 1,
+              "volWeatherTexture": {
+                "DepotPath": "base\\textures\\clouds\\cloud_weather.xbm",
+                "Flags": "Default"
+              },
+              "worldShadowIntensity": null
+            }
+          },
+          {
+            "HandleRefId": "-1"
+          }
+        ]
+      },
+      "resourceVersion": 1
+    },
+    "EmbeddedFiles": []
+  }
+}
