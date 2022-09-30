@@ -1,9 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CP77Mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <Author>nullfractal</Author>
-    <Email>texcoord@protonmail.com</Email>
-    <Name>R19</Name>
-    <Version>3.1.1</Version>
-    <IsRedMod>true</IsRedMod>
-    <ExecuteDeploy>true</ExecuteDeploy>
-</CP77Mod>
+﻿<?xml version="1.0" encoding="utf-8"?><CP77Mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Author>nullfractal</Author><Email>texcoord@protonmail.com</Email><Name>R19</Name><Version>3.1.1</Version><IsRedMod>true</IsRedMod><ExecuteDeploy>true</ExecuteDeploy></CP77Mod>
