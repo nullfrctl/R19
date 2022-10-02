@@ -1,0 +1,285 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.7.0",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1600,
+    "ExportedDateTime": "2022-10-01T21:52:12.8520328Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "D:\\Users\\null\\Modding\\cp77\\R19\\source\\archive\\base\\fx\\camera\\falling.effect"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "worldEffect",
+      "cookingPlatform": "PLATFORM_PC",
+      "effectLoops": [
+        {
+          "$type": "effectLoopData",
+          "endTime": 1,
+          "startTime": 0.75
+        }
+      ],
+      "events": [
+        {
+          "HandleId": "0",
+          "Data": {
+            "$type": "effectTrackItemLoopMarker",
+            "ruid": 901040027040952320,
+            "timeBegin": 0.75,
+            "timeDuration": 0.25
+          }
+        },
+        {
+          "HandleId": "1",
+          "Data": {
+            "$type": "effectTrackItemMotionBlurScale",
+            "ruid": 902079541029056512,
+            "scale": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "2",
+                "Data": {
+                  "$type": "CEvaluatorFloatCurve",
+                  "curves": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 0,
+                        "Value": 1
+                      },
+                      {
+                        "Point": 0.070501,
+                        "Value": 5.143643
+                      },
+                      {
+                        "Point": 0.539326,
+                        "Value": 6
+                      },
+                      {
+                        "Point": 1,
+                        "Value": 6
+                      }
+                    ]
+                  },
+                  "numberOfCurveSamples": 16
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "timeBegin": 0,
+            "timeDuration": 1
+          }
+        },
+        {
+          "HandleId": "3",
+          "Data": {
+            "$type": "effectTrackItemColorGrade",
+            "brightness": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "4",
+                "Data": {
+                  "$type": "CEvaluatorFloatConst",
+                  "value": 0
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "contrast": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "5",
+                "Data": {
+                  "$type": "CEvaluatorFloatConst",
+                  "value": 0
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "lutParams": {
+              "$type": "ColorGradingLutParams",
+              "inputMapping": "CMF_sRGB",
+              "LUT": {
+                "DepotPath": 0,
+                "Flags": "Default"
+              },
+              "outputMapping": "CMF_sRGB"
+            },
+            "lutParamsHdr": {
+              "$type": "ColorGradingLutParams",
+              "inputMapping": "CMF_sRGB",
+              "LUT": {
+                "DepotPath": 0,
+                "Flags": "Default"
+              },
+              "outputMapping": "CMF_sRGB"
+            },
+            "lutWeight": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "6",
+                "Data": {
+                  "$type": "CEvaluatorFloatConst",
+                  "value": 1
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "ruid": 902232816969789440,
+            "saturate": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "7",
+                "Data": {
+                  "$type": "CEvaluatorFloatCurve",
+                  "curves": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 0,
+                        "Value": 0
+                      },
+                      {
+                        "Point": 0.75,
+                        "Value": -0.75
+                      },
+                      {
+                        "Point": 1,
+                        "Value": -0.75
+                      }
+                    ]
+                  },
+                  "numberOfCurveSamples": 16
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "timeBegin": 0,
+            "timeDuration": 1
+          }
+        },
+        {
+          "HandleId": "8",
+          "Data": {
+            "$type": "effectTrackItemChromaticAberration",
+            "chromaticAberrationExp": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "9",
+                "Data": {
+                  "$type": "CEvaluatorFloatConst",
+                  "value": 0
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "chromaticAberrationOffset": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "10",
+                "Data": {
+                  "$type": "CEvaluatorFloatCurve",
+                  "curves": {
+                    "InterpolationType": "Linear",
+                    "LinkType": "ESLT_Normal",
+                    "Elements": [
+                      {
+                        "Point": 0,
+                        "Value": 0
+                      },
+                      {
+                        "Point": 0.1,
+                        "Value": 3
+                      },
+                      {
+                        "Point": 0.917753,
+                        "Value": 3
+                      },
+                      {
+                        "Point": 1,
+                        "Value": 3
+                      }
+                    ]
+                  },
+                  "numberOfCurveSamples": 16
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "override": 0,
+            "ruid": 2361887437292605440,
+            "timeBegin": 0,
+            "timeDuration": 1
+          }
+        }
+      ],
+      "inputParameterNames": [],
+      "length": 1,
+      "name": 0,
+      "trackRoot": {
+        "HandleId": "11",
+        "Data": {
+          "$type": "effectTrackGroup",
+          "componentName": 0,
+          "tracks": [
+            {
+              "HandleId": "12",
+              "Data": {
+                "$type": "effectTrack",
+                "items": [
+                  {
+                    "HandleRefId": "0"
+                  }
+                ]
+              }
+            },
+            {
+              "HandleId": "13",
+              "Data": {
+                "$type": "effectTrack",
+                "items": [
+                  {
+                    "HandleRefId": "1"
+                  }
+                ]
+              }
+            },
+            {
+              "HandleId": "14",
+              "Data": {
+                "$type": "effectTrack",
+                "items": [
+                  {
+                    "HandleRefId": "3"
+                  }
+                ]
+              }
+            },
+            {
+              "HandleId": "15",
+              "Data": {
+                "$type": "effectTrack",
+                "items": [
+                  {
+                    "HandleRefId": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.7.0",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1600,
+    "ExportedDateTime": "2022-10-01T21:52:19.3147533Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "D:\\Users\\null\\Modding\\cp77\\R19\\source\\archive\\base\\fx\\characters\\player\\locomotion\\sprint.effect"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "worldEffect",
+      "cookingPlatform": "PLATFORM_PC",
+      "effectLoops": [
+        {
+          "$type": "effectLoopData",
+          "endTime": 0.328358,
+          "startTime": 0.17336899
+        }
+      ],
+      "events": [
+        {
+          "HandleId": "0",
+          "Data": {
+            "$type": "effectTrackItemColorGrade",
+            "brightness": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "1",
+                "Data": {
+                  "$type": "CEvaluatorFloatConst",
+                  "value": 0
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "contrast": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "2",
+                "Data": {
+                  "$type": "CEvaluatorFloatConst",
+                  "value": 0
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "lutParams": {
+              "$type": "ColorGradingLutParams",
+              "inputMapping": "CMF_sRGB",
+              "LUT": {
+                "DepotPath": 0,
+                "Flags": "Default"
+              },
+              "outputMapping": "CMF_sRGB"
+            },
+            "lutParamsHdr": {
+              "$type": "ColorGradingLutParams",
+              "inputMapping": "CMF_sRGB",
+              "LUT": {
+                "DepotPath": 0,
+                "Flags": "Default"
+              },
+              "outputMapping": "CMF_sRGB"
+            },
+            "lutWeight": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "3",
+                "Data": {
+                  "$type": "CEvaluatorFloatConst",
+                  "value": 1
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "ruid": 1806648346198908928,
+            "saturate": {
+              "$type": "effectEffectParameterEvaluatorFloat",
+              "evaluator": {
+                "HandleId": "4",
+                "Data": {
+                  "$type": "CEvaluatorFloatConst",
+                  "value": -3
+                }
+              },
+              "inputParameterIsPostMultiplier": 0,
+              "inputParameterOverride": 0
+            },
+            "timeBegin": 0,
+            "timeDuration": 0.500188
+          }
+        },
+        {
+          "HandleId": "5",
+          "Data": {
+            "$type": "effectTrackItemLoopMarker",
+            "ruid": 1806649419588411392,
+            "timeBegin": 0.17336899,
+            "timeDuration": 0.154989
+          }
+        }
+      ],
+      "inputParameterNames": [],
+      "length": 0.500188,
+      "name": 0,
+      "trackRoot": {
+        "HandleId": "6",
+        "Data": {
+          "$type": "effectTrackGroup",
+          "componentName": 0,
+          "tracks": [
+            {
+              "HandleId": "7",
+              "Data": {
+                "$type": "effectTrack",
+                "items": [
+                  {
+                    "HandleRefId": "5"
+                  }
+                ]
+              }
+            },
+            {
+              "HandleId": "8",
+              "Data": {
+                "$type": "effectTrack",
+                "items": [
+                  {
+                    "HandleRefId": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}
